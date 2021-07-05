@@ -1,0 +1,6 @@
+User-Agent: Googlebot
+Disallow: /about
+
+User-Agent: MSNBot
+Disallow: /about
+
