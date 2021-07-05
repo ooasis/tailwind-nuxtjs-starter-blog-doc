@@ -20,10 +20,10 @@ ___Forestry___ provides free plan for personal project. The sign up and setup pr
 
 ```yml [.forestry/settings.yml]
 build:
-  preview_output_directory: ".nuxt"
+  preview_output_directory: "/.nuxt"
   install_dependencies_command: yarn install
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
-  working_dir: "/srv"
+  working_dir: "/srv/tailwind-nuxtjs-starter-blog"
   instant_preview_command: yarn forestry-preview
 ```

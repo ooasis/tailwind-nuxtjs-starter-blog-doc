@@ -6,13 +6,7 @@ tags:
 ---
 I have only used this project on macOS(Big Sur), hopefully the steps described below will work for you as well.  If you are familiar with general Javascript development process, it should feel familiar.
 
-* Clone the project (assume your choice of local directory is tnsb)
-
-  ```bash
-  git clone https://github.com/ooasis/tailwind-nuxtjs-starter-blog.git tnsb
-  ```
-
-* Create a new directory to host your content data
+* Create a new git project to host your content data
 This directory should have following sub-directories.files created
   
   * config/index.js
@@ -43,18 +37,18 @@ This directory should have following sub-directories.files created
 
     \* you can store images here, but ideally you should use an image service (e.g. flickr.com).  I manage my content with git as well. Having a lot of images checked in git is not ideal.
 
-* let Tailwind NuxtJs Starter Blog know when the content is
-
-  This project looks for directory ___mysite___ for content.  What you need to do is to create a soft link ___mysite___ which points to the root of your content directory (Hint: before you create your own content directory, you can use this project's ___sample___ directory as demo)
+* Add _Tailwind-NuxtJs-Starter-Blog_ as git _submodule_ to the project
 
   ```bash
-  cd tnsb
-  ln -s <your_content_directory> mysite
+  git submodule add https://github.com/ooasis/tailwind-nuxtjs-starter-blog.git
   ```
+
+  this will create a sub-directory _tailwind-nuxtjs-starter-blog_ which you will use to generate the static site.
 
 * to run a local instance which you can live view your editing
 
   ```bash
+  cd tailwind-nuxtjs-starter-blog
   yarn dev
   ```
   
@@ -67,8 +61,9 @@ This directory should have following sub-directories.files created
 * to generate content for static site, run
 
   ```bash
+  tailwind-nuxtjs-starter-blog
   yarn generate
   ```
 
-  this command will generate the static files to ___mysite/dist___
+  this command will generate the static files to __dist__
 

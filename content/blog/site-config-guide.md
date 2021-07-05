@@ -5,8 +5,8 @@ tags:
   - guide
   - config
 ---
-All site configurations are imported from ___mysite/config___.
+All site configurations are imported from ___config___.
 
 Following is the link to the site config of this blog. You can use it to adapt to your own site: 
 
-[mysite/config/index.js](https://github.com/ooasis/tailwind-nuxtjs-starter-blog/blob/main/sample/config/index.js)
+[config/index.js](https://github.com/ooasis/tailwind-nuxtjs-starter-blog-doc/blob/main/config/index.js)
