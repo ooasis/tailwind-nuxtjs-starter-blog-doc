@@ -1,3 +1,8 @@
+---
+title: Home
+description: Home page
+
+---
 # Welcome
 
 This is the demo site for [Tailwind NuxtJs Starter Blog](https://github.com/ooasis/tailwind-nuxtjs-starter-blog.git) project.
