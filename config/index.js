@@ -26,6 +26,6 @@ export default {
     facebook: 'https://facebook.com/',
   },
   comment: {
-    commento: 'https://commentu2.herokuapp.com',
+    commento: 'https://commentu.herokuapp.com',
   },
 }
