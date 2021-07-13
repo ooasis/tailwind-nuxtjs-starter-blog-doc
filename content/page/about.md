@@ -1,6 +1,7 @@
 ---
 title: About
 description: About this blog and the project
+publishedAt: 2021-07-05
 ---
 # About this blog
 This is the showcase for the Tailwind Nuxt Starter Blog.

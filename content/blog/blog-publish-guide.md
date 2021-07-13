@@ -1,6 +1,7 @@
 ---
 title: Publish Your Blog
 description: Different ways to publish your blog site.
+publishedAt: 2021-07-06
 tags: 
   - guide
   - netlify

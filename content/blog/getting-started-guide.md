@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 description: How to setup this project for your personal project.
+publishedAt: 2021-07-05
 tags: 
   - guide
 ---

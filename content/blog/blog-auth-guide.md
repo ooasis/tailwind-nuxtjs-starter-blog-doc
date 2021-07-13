@@ -1,6 +1,7 @@
 ---
 title: Write Your Blog
 description: Different ways to auth your blog.
+publishedAt: 2021-07-06
 tags: 
   - guide
   - forestry

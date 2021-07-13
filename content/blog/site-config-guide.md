@@ -1,6 +1,7 @@
 ---
 title: Reference - Site Config
 description: This post provides details on site configuration options. 
+publishedAt: 2021-07-06
 tags: 
   - guide
   - config
