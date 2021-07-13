@@ -28,4 +28,5 @@ export default {
   comment: {
     commento: 'https://commentu.herokuapp.com',
   },
+  gtag: 'G-9PXSECGJ92',
 }
