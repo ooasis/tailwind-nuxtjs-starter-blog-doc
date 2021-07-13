@@ -6,7 +6,7 @@ tags:
   - guide
   - config
 ---
-All site configurations are imported from ___config___.
+All site configurations are imported from _config_.
 
 Following is the link to the site config of this blog. You can use it to adapt to your own site: 
 
